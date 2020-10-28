@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> HTML cheat sheet</title>
+</head>
+<br>
+
+
+<body>
+	<a href="blog.html">Go to Blog</a>
+	<!-- Heading-->
+	<h1> Heading one</h1>
+	<h2> Heading two</h2>
+	<h3> Heading three</h3>
+	<h4> Heading four</h4>
+	<h5> Heading five</h5>
+	<h6> Heading six</h6>
+
+	<!--paragraphs-->
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua.<strong> Ut enim ad minim veniam,</strong>
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. <em>Duis aute irure dolor in reprehenderit in voluptate </em>velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt<a href="https:google.com" target=" blank"> ut labore et dolore magna aliqua. Ut enim ad minim
+			veniam</a>,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<!--lists-->
+	<ul>
+		<li>List Item 1</li>
+		<li>List Item 2</li>
+		<li>List Item 3</li>
+		<li>List Item 4</li>
+	</ul>
+	<ol>
+		<li>List Item 1</li>
+		<li>List Item 2</li>
+		<li>List Item 3</li>
+		<li>List Item 4</li>
+	</ol>
+	<!--tables-->
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Age</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Lidya Tompson</td>
+				<td>Lidya@gmail.com</td>
+				<td>31</td>
+			</tr>
+			<tr>
+				<td>Feven Solomon</td>
+				<td>Feven@gmail.com</td>
+				<td>29</td>
+			</tr>
+			<tr>
+				<td>Rahwa Goniche</td>
+				<td>RGoniche@gmail.com</td>
+				<td>29</td>
+			</tr>
+			<tr>
+				<td>Wegahta Kindishih</td>
+				<td>Wkind@gmail.com</td>
+				<td>32</td>
+			</tr>
+		</tbody>
+
+	</table>
+	<!-- white new line used to separate things-->
+	<br>
+	<!-- the tag below is a line separator-->
+	<hr>
+	<br>
+
+	<!--Forms-->
+	<form action=" process.php" method=" POST">
+		<!-- div tag is a block element here we use the to separate the labels to be in separate line-->
+		<div>
+			<label>First Name</label>
+			<!-- input tag is self closing-->
+			<input type="text" name="firstName" placeholder="Enter firstName">
+		</div>
+
+		<br>
+		<div>
+			<label>Last Name</label>
+			<input type="text" name="lastName" placeholder="Enter lastName">
+
+		</div>
+		<br>
+		<div>
+			<label>Age</label>
+			<!-- the value tag is to give default value , other wise it will be zero-->
+			<input type="number" name="Age" value="30">
+		</div>
+		<br>
+		<div>
+			<label>Email</label>
+			<input type="email" name="email">
+		</div>
+		<br>
+		<div>
+			<label>Birthday</label>
+			<input type="date" name="birthday">
+		</div>
+		<br>
+		<div>
+			<label>Message</label>
+			<!-- for message we donot use input but there is a text area-->
+			<textarea name="Message"></textarea>
+		</div>
+		<br>
+		<div>
+			<label>gender</label>
+			<select name="gender">
+				<option value="male">Male</option>
+				<option value="female">female</option>
+			</select>
+		</div>
+		<br>
+		<input type="submit" name="submit" value="submit">
+	</form>
+
+
+	<!--it the submit button tries to submit to the program mentioned in the action atrribute of the form in the start tag-->
+	<br>
+	<button>Click me</button>
+	<!--this does not do any thing to do so it has to mention some java script ,, Like action listner or handler-->
+	<br>
+	<!--we didnot write longer directory because it knows where the folder is, i.e where the sublime is located-->
+	<a href="images/sample.jpg" target=" blank">
+		<img src="images/sample.jpg" alt="no picture found" width="250" height=" 250">
+		<!--the width and height better to use the ones in css-->
+
+	</a>
+
+	<!--Quotations-->
+	<blockquote cite="traversymedia.com">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</blockquote>
+	<br>
+	<p> The <abbr title="World Wide Web">WWW</abbr>
+		is awsome </p>
+
+	<p><cite>HTML crash courses</cite> by Brad Traversy </p>
+
+	<div style="margin-top: 500px"></div>
+
+
+</body>
+
+</html>
