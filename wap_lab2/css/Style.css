@@ -1,7 +1,7 @@
 body{
     background-color: gray; 
   color: white;
-  font: normal 16px Arial ,Helvetica,sans-serif;
+  
   line-height: 1.6em;
   width: 80%;
   margin: auto;
@@ -9,6 +9,21 @@ body{
  
   text-align: justify;
 }
+
+.linkToHome{
+  
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  
+    border: rgb(22, 71, 110) solid 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .block1{
     padding: 15px;
     border-bottom: thin white solid;
