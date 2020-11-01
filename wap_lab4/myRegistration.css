@@ -1,0 +1,123 @@
+body {
+    margin: 0px 100px 0px 100px;
+
+}
+
+header {
+    background-color: #a2cbbc;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.headerTitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+header select {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: transparent;
+    border: none;
+    margin-left: 20px ;
+}
+header a{
+    margin-left: 100px;
+    text-decoration: none;
+    color: rgb(40, 101, 172);
+}
+header a:hover{
+    text-decoration: underline;
+    color: rgb(236, 240, 243);
+}
+nav{
+    margin: -10px 10px 0px 10px;
+    border: #a2cbbc solid 2px ;
+}
+
+form {
+    display: grid;
+    grid-template-rows: 92% 8%;
+    background-color: white;
+  
+    
+}
+.fields {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    margin-bottom: 30px;    
+}
+
+.formLeftDiv {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formRightDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;;
+}
+
+.leftlabels {
+    float: left;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.rightlabels{
+    float: left;
+    margin-top: 15px;
+    
+}
+.leftlabels, .rightlabels{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.leftlabels .asterisk{
+ color:red;
+}
+
+.underlined{
+   text-decoration: underline;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+}
+
+.formLeftDiv textarea {
+    height: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formLeftDiv input, .formLeftDiv textarea, .formLeftDiv Select {
+    float: right;
+    margin-right: 80px;
+    width: 40%;  
+}
+
+.rightlabels input,  .rightlabels Select {
+    float: right;
+    margin-right: 80px;
+    width: 40%;
+}
+
+.check {
+    margin-left: 235px;      
+}
+.buttons{
+    background-color:#e3e3e3;
+    padding: 7px;
+    text-align: center;    
+}
+
+.buttons input{
+    width: 100px;
+    height: 30px;
+    background-color: #a2cbbc;
+    border:none;
+}

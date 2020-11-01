@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="myRegistration.css" type="text/css">
+  <title>Home-About Ghirmai Berhe</title>
+</head>
+
+<body>
+  <header>
+    <span class="headerTitle">Workshop Regsitration </span>
+    <span>
+      <select id="actions">
+        <option>More Actions</option>
+        <option>Action 1</option>
+        <option>Action 2</option>
+        <option>Action 3</option>
+
+      </select>
+    </span>
+    <span> <a href="../index.html"> Home </a>
+  </header>
+  <nav>
+    <div>
+        <form action="#">
+            <div class="fields">
+                <div class="formLeftDiv">
+                    <p> Register now while seats are available !</p>
+                    <Label class="leftlabels"> First Name <span class="asterisk">*</span> 
+                        <input type="text" required pattern="[a-zA-Z]+" placeholder="characters"></input>
+                    </Label>
+                    <label class="leftlabels"> Last Name <span class="asterisk">*</span>
+                        <input type="text" required pattern="[a-zA-Z]+" placeholder="characters"> </input>
+                    </label>
+                    <label class="leftlabels"> Company Institution <span class="asterisk">*</span>
+                        <input type="text" required pattern="\w+" placeholder="word characters"> </input> 
+                    </label>
+                    <label class="leftlabels"> Address <span class="asterisk">*</span>
+                        <textarea required pattern="[a-zA-Z]+" placeholder="One or more characters"> </textarea>
+                    </label>
+                    <label class="leftlabels"> City<input type="text"> </input> </label>
+                    <label class="leftlabels"> State/Province/Region
+                        <select>
+                            <option>Select One</option>
+                            <option>State 1</option>
+                            <option>State 2</option>
+                            <option>State 3</option>
+                            <option>State 4</option>
+                            <option>State 5</option>
+                        </select>
+                    </label>
+
+                    <label class="leftlabels"> Country
+                        <select>
+                            <option>Select One</option>
+                            <option value="AO">Angola</option>
+                            <option value="BR">Brazil</option>
+                            <option value="CZ">Czech Republic</option>
+                            <option value="FI">Finland</option>
+                            <option value="JM">Jamaica</option>
+                            <option value="US">United States</option>
+                        </select>
+                    </label>
+
+                    <label class="leftlabels"> Email <span class="asterisk">*</span> 
+                        <input type="text" required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$"> </input>
+                    </label>
+                    <label class="leftlabels"> Phone Number <span class="asterisk">*</span> 
+                        <input type="text" required pattern="^[\+][(]\d{3}[)][-]\d{3}[-]\d{4,6}$" placeholder="+(123)-456-7890"> </input>
+                    </label>
+
+                </div>
+                <div class="formRightDiv">
+                    <p class="underlined"> Lunch </p>
+                    <label class="rightlabels"> Meal Preference
+                        <select>
+                            <option>Select One</option>
+                            <option>Vegeterian</option>
+                            <option>Salad</option>
+                            <option>Meat</option>
+                        </select>
+                    </label>
+                    <p class="underlined"> Payment Details </p>
+                    <p class="rightlabels"> Payment Mode </p>
+                    <span class="check">
+                        <input type="checkbox" id="1" /> <label for="1">Cash </label> <br>
+                        <input type="checkbox" id="2" /> <label for="2">Cheque</label> <br>
+                        <input type="checkbox" id="3" /> <label for="3">Demand Draft</label><br>
+                    </span>
+                    <label class="rightlabels"> DD/Check No. <input type="text"> </input> </label>
+                    <label class="rightlabels"> Draw On (Bank Name) <input type="text"> </input> </label>
+                    <label class="rightlabels"> Payable at <input type="text"> </input> </label>
+
+                </div>
+            </div>
+            <div class="buttons">
+                <input type="submit" value="Submit"/>  
+                <input type="reset" value="Reset"/>  
+            </div>
+        </form>
+    </div>
+
+</nav>
+
+</body>
+
+</html>
