@@ -50,8 +50,8 @@ window.onload = function(){
 
     // question 4 using prototype object
     var Person = {
-        name:'Samuel Luswata',
-        age:56,
+        name:'Haile Daniel',
+        age:43,
         greeting:function(){
             console.log('\nGreetings, my name is ' + this.name + ' and I am ' + this.age +' years old');
         },
